@@ -1,0 +1,56 @@
+{
+	"name": "hex-my-bytes",
+	"version": "1.0.0",
+	"description": "Convert an array of bytes to a HEX string, and viceversa",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/macarie/hex-my-bytes.git"
+	},
+	"bugs": {
+		"url": "https://github.com/macarie/hex-my-bytes/issues"
+	},
+	"homepage": "https://github.com/macarie/hex-my-bytes#readme",
+	"author": {
+		"name": "Raul Macarie",
+		"email": "raul@macarie.me",
+		"url": "https://macarie.me"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && nyc --reporter=lcov ava",
+		"coverage": "codecov"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [],
+	"devDependencies": {
+		"ava": "^2.4.0",
+		"codecov": "^3.6.1",
+		"nyc": "^15.0.0",
+		"prettier": "^1.19.1",
+		"xo": "^0.25.3"
+	},
+	"xo": {
+		"prettier": true,
+		"ignores": [
+			"*.ts"
+		]
+	},
+	"prettier": {
+		"semi": false,
+		"bracketSpacing": true,
+		"useTabs": true,
+		"endOfLine": "lf"
+	},
+	"ava": {
+		"require": [
+			"esm"
+		]
+	},
+	"dependencies": {}
+}
