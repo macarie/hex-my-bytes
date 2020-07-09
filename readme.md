@@ -52,7 +52,7 @@ Notes:
 
 Convert a hexadecimal string to a list of bytes, creating a new instance of `Uint8Array`.
 
-#### hexString
+#### hexString
 
 Type: `string`
 
