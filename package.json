@@ -35,7 +35,15 @@
 		"dist/index.js",
 		"dist/index.d.ts"
 	],
-	"keywords": [],
+	"keywords": [
+		"byte",
+		"bytes",
+		"hex",
+		"stringify",
+		"typed array",
+		"typedarray",
+		"Uint8Array"
+	],
 	"devDependencies": {
 		"ava": "^4.3.0",
 		"c8": "^7.11.3",
