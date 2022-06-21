@@ -41,7 +41,7 @@ Convert an array of bytes to a lowercased hexadecimal string.
 
 #### bytes
 
-Type: `number[]`
+Type: `number[] | Uint8Array`
 
 A list of bytes.
 
