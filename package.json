@@ -4,6 +4,13 @@
 	"type": "module",
 	"description": "Convert an array of bytes to a HEX string, and viceversa",
 	"license": "MIT",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		}
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/macarie/hex-my-bytes.git"
