@@ -2,7 +2,7 @@
 
 > Convert a list of bytes to a HEX string, and vice versa
 
-[![Build Status](https://img.shields.io/travis/com/macarie/hex-my-bytes)](https://travis-ci.com/macarie/hex-my-bytes) [![Coverage Status](https://img.shields.io/codecov/c/github/macarie/hex-my-bytes)](https://codecov.io/gh/macarie/hex-my-bytes/)
+[![Test Results](https://github.com/macarie/hex-my-bytes/actions/workflows/test-main.yaml/badge.svg)](https://github.com/macarie/hex-my-bytes/actions/workflows/test-main.yaml) [![Coverage Status](https://codecov.io/gh/macarie/hex-my-bytes/branch/master/graph/badge.svg?token=D4W9B5iggG)](https://codecov.io/gh/macarie/hex-my-bytes)
 
 Can be useful for debugging instances of `TypedArray`.
 
